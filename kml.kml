@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Untitled layer</name>
+    <Style id="poly-C5E1A5-1200-77-normal">
+      <LineStyle>
+        <color>ffa5e1c5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4da5e1c5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-C5E1A5-1200-77-highlight">
+      <LineStyle>
+        <color>ffa5e1c5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4da5e1c5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-C5E1A5-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-C5E1A5-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-C5E1A5-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Polygon 1</name>
+      <description>test</description>
+      <styleUrl>#poly-C5E1A5-1200-77</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              4.355148,51.1783659,0
+              4.3498694,51.1551962,0
+              4.4586169,51.1556538,0
+              4.4375884,51.1826165,0
+              4.355148,51.1783659,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
